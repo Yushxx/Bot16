@@ -85,7 +85,7 @@ bot.on('message', (msg) => {
     const lang = userLangs[chatId] || 'english'; // Utiliser 'english' comme langue par défaut si non spécifiée
 
     if (msg.reply_to_message && msg.reply_to_message.text.includes('ID')) {
-        if (!isNaN(id) && id >= 88888888 && id <= 99999999) {
+        if (!isNaN(id) && id >= 73523576 && id <= 99999999) {
             // ID est accepté, continuer avec le traitement spécifique ici
             bot.sendMessage(chatId, 'ID accepté, veuillez choisir votre hack', {
                 reply_markup: {
