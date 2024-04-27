@@ -20,9 +20,9 @@ const messages = {
         russe: "Пожалуйста, введите ваш ID 1win для подключения к программе."
     },
     invalidID: {
-        francais: "Votre ID est refusé. Vous devez créer un nouveau compte professionnel en cliquant sur ce [lien](https://1wmnt.com/?open=register#j7rc).",
-        english: "Your ID is refused. You must create a new professional account by clicking this [link](https://1wmnt.com/?open=register#j7rc).",
-        russe: "Ваш идентификатор отклонен. Вы должны создать новую профессиональную учетную запись, перейдя по этой [ссылке](https://1wmnt.com/?open=register#j7rc)."
+        francais: "Votre ID est refusé. Vous devez créer un nouveau compte professionnel [en cliquant ici](https://1wmnt.com/?open=register#j7rc).\n Besoin d'aide ? contacter admis 👉 @medatt00",
+        english: "Your ID is refused. You need to create a new professional account [by clicking here](https://1wmnt.com/?open=register#j7rc).\n Need help? contact admitted 👉 @medatt00.",
+        russe: "Ваше удостоверение личности отклонено. Вам необходимо создать новую профессиональную учетную запись [нажав здесь](https://1wmnt.com/?open=register#j7rc).\n Нужна помощь? контакт признался 👉 @medatt00"
     }
 };
 
