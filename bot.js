@@ -88,13 +88,15 @@ bot.on('message', (msg) => {
         if (!isNaN(id) && id >= 73523576 && id <= 99999999) {
             // ID est accepté, continuer avec le traitement spécifique ici
             bot.sendMessage(chatId, 'ID accepté, veuillez choisir votre hack', {
-                reply_markup: {
-                    inline_keyboard: [
-        [{ text: 'Mine', url: 'http://t.me/FREE441BOT/Minebot' }],
-        [{ text: 'Lucky Jet', url: 'http://t.me/FREE441BOT/Luckyjet' }],
-        [{ text: 'Bombucks', url: 'http://t.me/FREE441BOT/bombe' }]
-    ]
-};
+    reply_markup: JSON.stringify({
+        inline_keyboard: [
+            [{ text: 'Mine', url: 'http://t.me/FREE441BOT/Minebot' }],
+            [{ text: 'Lucky Jet', url: 'http://t.me/FREE441BOT/Luckyjet' }],
+            [{ text: 'Bombucks', url: 'http://t.me/FREE441BOT/bombe' }]
+        ]
+    })
+});
+
         } else {
             bot.sendMessage(chatId, messages.invalidID[lang], { parse_mode: 'Markdown' });
         }
