@@ -90,11 +90,11 @@ bot.on('message', (msg) => {
             bot.sendMessage(chatId, 'ID accepté, veuillez choisir votre hack', {
                 reply_markup: {
                     inline_keyboard: [
-                        [{ text: 'Mine', url: 'http://t.me/FREE441BOT/Minebot' }],
-                        [{ text: 'Lucky Jet', url: 'http://t.me/FREE441BOT/Luckyjet' }]
-                    ]
-                }
-            });
+        [{ text: 'Mine', url: 'http://t.me/FREE441BOT/Minebot' }],
+        [{ text: 'Lucky Jet', url: 'http://t.me/FREE441BOT/Luckyjet' }],
+        [{ text: 'Bombucks', url: 'http://t.me/FREE441BOT/bombe' }]
+    ]
+};
         } else {
             bot.sendMessage(chatId, messages.invalidID[lang], { parse_mode: 'Markdown' });
         }
