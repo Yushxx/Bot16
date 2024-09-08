@@ -10,8 +10,8 @@ let userLangs = {};
 // Messages traduits pour chaque langue
 const messages = {
     welcome: {
-        francais: "Bienvenue au programme de prédiction des jeux 1win. Pour commencer, veuillez cliquer sur le bouton Sign up pour créer un compte compatible avec nos signaux. Après cela, cliquez sur Next pour continuer.",
-        english: "Welcome to the 1win games prediction program. To get started, please click the Sign up button to create an account compatible with our signals. After that, click Next to continue.",
+        francais: " Bienvenue dans notre programme de prédiction des jeux 1win ! Nous sommes ravis de vous accueillir. Pour bénéficier pleinement de nos services, veuillez créer un compte en utilisant le code promo ZFree221. Cliquez sur 'Sign up' pour commencer, puis sur 'Next' pour poursuivre. Nous sommes là pour vous accompagner à chaque étape.",
+        english: "Welcome to the 1win games prediction program. To get started, please create a new account  1win using the promo code ZFree221 by clicking  the Sign up button to create an account compatible with our signals. After that, click Next to continue.",
         russe: "Добро пожаловать в программу прогнозирования игр 1win. Для начала, пожалуйста, нажмите кнопку Зарегистрироваться, чтобы создать аккаунт, совместимый с нашими сигналами. После этого нажмите Next, чтобы продолжить."
     },
     enterID: {
